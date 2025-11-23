@@ -1,6 +1,4 @@
-# Create .gitignore file
-@"
-# Dependencies
+﻿# Dependencies
 /node_modules
 /.pnp
 .pnp.js
@@ -51,4 +49,3 @@ Thumbs.db
 
 # Optional eslint cache
 .eslintcache
-"@ | Out-File -FilePath ".gitignore" -Encoding UTF8
